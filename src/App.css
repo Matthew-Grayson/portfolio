@@ -1,3 +1,16 @@
+:root {
+  --teal-dark: #166;
+  --purple-dark: #516;
+  --purple-light: #94b;
+  --teal-light: #4bb;
+  --light: #eee;
+  --grey: #89a;
+  --smoke: #567;
+  --dark: #112;
+  --blonde: #eb8;
+}
+
+
 .App {
   text-align: center;
 }
