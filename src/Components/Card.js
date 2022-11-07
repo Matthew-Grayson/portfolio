@@ -8,7 +8,6 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from '@mui/icons-material/Launch';
-import {Link, Route, Router} from 'react-router-dom';
 
 
 export default function MediaControlCard(props) {
@@ -26,16 +25,16 @@ export default function MediaControlCard(props) {
                     </Typography>
                 </CardContent>
                 <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 }}>
-                    <a href={props.project}>
-                        <IconButton aria-label="site">
+                    <IconButton aria-label="site">
+                        <a href={props.project}>
                             <GitHubIcon sx={{ height: 38, width: 38 }} />
-                        </IconButton>
-                    </a>
-                    <a href={props.site}>
-                        <IconButton aria-label="project">
+                        </a>
+                    </IconButton>
+                    <IconButton aria-label="project">
+                        <a href={props.site}>
                             <LaunchIcon sx={{ height: 38, width: 38 }} />
-                        </IconButton>
-                    </a>
+                        </a>
+                    </IconButton>
                 </Box>
             </Box>
             <CardMedia
